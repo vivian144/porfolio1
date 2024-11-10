@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivian Reddy's Portfolio</title>
+    <style>
+        /* General Styles */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; background-color: #1c1c1e; color: #e0e0e0; line-height: 1.6; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+        .container { max-width: 800px; padding: 20px; background-color: #2c2c34; border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); }
+
+        h1 { font-size: 3em; color: #f9d342; text-align: center; margin-bottom: 20px; }
+        h2 { color: #f9d342; margin-top: 1em; }
+        p, ul { color: #cfcfcf; }
+        
+        /* Contact Links */
+        .contact-info a { color: #f9d342; text-decoration: none; }
+        .contact-info a:hover { text-decoration: underline; }
+
+        /* Skills as Hover Buttons */
+        .skills { display: flex; flex-wrap: wrap; gap: 10px; }
+        .skill-button {
+            background-color: #444;
+            color: #e0e0e0;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+            font-size: 0.9em;
+        }
+        .skill-button:hover {
+            background-color: #f9d342;
+            color: #1c1c1e;
+        }
+
+        /* Other Sections */
+        .section { margin-bottom: 20px; }
+        .education, .hobbies, .languages { margin-left: 20px; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>VIVIAN REDDY</h1>
+
+        <div class="section">
+            <h2>About Me</h2>
+            <p>I'm a second-year student pursuing an AI with Data Science course, motivated by how this field can transform the world in the coming years. As an aspiring software engineer, I'm driven by curiosity, a passion for new technologies, and a commitment to making an impact through continuous learning and skill development.</p>
+        </div>
+
+        <div class="section">
+            <h2>Contact Information</h2>
+            <ul class="contact-info">
+                <li>Email: <a href="mailto:vivianreddy660@gmail.com">vivianreddy660@gmail.com</a></li>
+                <li>Phone: +91 9182541297</li>
+                <li>CodeChef: <a href="https://www.codechef.com/users/vivianreddy46" target="_blank">vivianreddy46</a></li>
+                <li>GitHub: <a href="https://github.com/" target="_blank">GitHub Profile</a></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <ul class="education">
+                <li><strong>DON BOSCO SCHOOL</strong><br>Class 1-10, 2021</li>
+                <li><strong>Meluha International School</strong><br>Class 11-12, 2023</li>
+                <li><strong>KL University, Hyderabad</strong><br>Bachelor of Technology in Artificial Intelligence and Data Science, 2023-2027</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <button class="skill-button">Python Programming</button>
+                <button class="skill-button">Java Programming</button>
+                <button class="skill-button">C Language</button>
+                <button class="skill-button">Photo Editing</button>
+                <button class="skill-button">Video Editing</button>
+                <button class="skill-button">HTML and CSS</button>
+                <button class="skill-button">Fusion</button>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Hobbies and Interests</h2>
+            <ul class="hobbies">
+                <li>Drums</li>
+                <li>Guitar</li>
+                <li>Football</li>
+                <li>Drawing</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Languages</h2>
+            <ul class="languages">
+                <li>English</li>
+                <li>Hindi</li>
+                <li>Telugu</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
